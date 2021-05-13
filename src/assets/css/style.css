@@ -1058,18 +1058,7 @@ label {
 @media (min-width: 1025px) {
   .site-header-large-bg {
     position: relative; }
-    .site-header-large-bg span {
-      position: absolute;
-      top: -24px;
-      /* header top padding */
-      bottom: 0;
-      left: 648px;
-      /* .hero-copy width + offset */
-      width: 9999px;
-      height: 100vh;
-      background: #8179f2;
-      background: linear-gradient(to bottom, #665DF0 0, #9B95F3 100%);
-      background-repeat: no-repeat; } }
+}
 
 /*--------------------------------------------------------------
 # Hero
