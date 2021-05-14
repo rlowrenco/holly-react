@@ -22,13 +22,6 @@ class Message extends Component {
 				});
 			});
 	}
-	/*
-			this.setState({
-				messagesPerSec: content.data.messagesPerSecond,
-				refMessagesPerSec: content.data.referencedMessagesPerSecond,
-				milestoneIndex: content.data.latestMilestoneIndex,
-			});
-	*/
 
 	render() {
 		const { messagesPerSec, refMessagesPerSec, milestoneIndex } = this.state;

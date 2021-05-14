@@ -17,13 +17,15 @@ class NewsletterForm extends Component {
 					'newsletter-form field field-grouped is-revealing',
 					className
 				)}
+				action="example"
+				method="GET"
 			>
 				<div className="control control-expanded">
 					<input
 						className="input"
-						type="email"
-						name="email"
-						placeholder="Your best email&hellip;"
+						type="text"
+						name="transaction"
+						placeholder="Insert the messageId or a bech32 address"
 					/>
 				</div>
 				<div className="control">
